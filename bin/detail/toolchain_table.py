@@ -859,6 +859,8 @@ if platform.system() == 'Darwin':
       Toolchain('osx-11-1-cxx17', 'Xcode', osx_version='11.1'),
       Toolchain('osx-11-1-dep-10-10-cxx17', 'Xcode', osx_version='11.1'),
       Toolchain('linux-gcc-x64', 'Unix Makefiles'),
+      Toolchain('gcc-arm-cortexm0-cxx14', 'Unix Makefiles'),
+      Toolchain('gcc-armhf-neon-vfpv4', 'Unix Makefiles'),
   ]
 
 if os.name == 'posix':
@@ -933,6 +935,8 @@ if os.name == 'posix':
       Toolchain('gcc-8-cxx17-concepts', 'Unix Makefiles'),
       Toolchain('gcc-cxx98', 'Unix Makefiles'),
       Toolchain('gcc-lto', 'Unix Makefiles'),
+      Toolchain('gcc-arm-cortexm0-cxx14', 'Unix Makefiles'),
+      Toolchain('gcc-armhf-neon-vfpv4', 'Unix Makefiles'),
       Toolchain('libcxx', 'Unix Makefiles'),
       Toolchain('libcxx14', 'Unix Makefiles'),
       Toolchain('libcxx-no-sdk', 'Unix Makefiles'),
