@@ -433,6 +433,12 @@ if os.name == 'nt':
           vs_version='16'
       ),
       Toolchain(
+          'vs-16-2019-mt',
+          'Visual Studio 16 2019',
+          arch='x86',
+          vs_version='16'
+      ),
+      Toolchain(
           'vs-16-2019-cxx14',
           'Visual Studio 16 2019',
           arch='x86',
@@ -453,6 +459,12 @@ if os.name == 'nt':
       ),
       Toolchain(
           'vs-16-2019-win64',
+          'Visual Studio 16 2019',
+          arch='amd64',
+          vs_version='16'
+      ),
+      Toolchain(
+          'vs-16-2019-win64-mt',
           'Visual Studio 16 2019',
           arch='amd64',
           vs_version='16'
